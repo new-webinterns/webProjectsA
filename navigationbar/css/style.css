@@ -1,0 +1,14 @@
+li{
+    float: left;
+    list-style-type: none;/*to remove dots*/
+}
+a{
+    padding: 10px;/*space*/
+}
+ul{
+    position: fixed;
+}
+divisions{
+    height: 100vh;
+    padding-top: 20vh;
+}
