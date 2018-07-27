@@ -1,0 +1,22 @@
+li{
+	float:left;
+	list-style-type: none;
+}
+a{
+	padding: 8px;
+	text-decoration: none;
+}
+	
+.divisions
+{
+	height: 100vh;
+	padding-top: 20vh;
+
+}
+
+ul{
+	position: fixed;
+}
+body{
+	background: linear-gradient(pink,black);
+}
