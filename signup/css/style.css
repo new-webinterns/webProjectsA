@@ -1,0 +1,47 @@
+body{
+    background:linear-gradient(rgba(255, 255, 0, 0.856),black);
+    height:100vh;
+}
+.panel{
+    width:500px;
+    height:400px;
+    background:linear-gradient(violet,black);
+    position:absolute;
+    top:0%;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px black; 
+    border-radius: 20px;
+    font-size: 20px;
+    padding:8px;
+    
+
+}
+h1{
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
+    margin-left:30px;
+    
+    
+
+}
+button{
+    text-align: center;
+    background:red;
+    margin-left: 200px;
+    padding:8px;
+    font-size: 20px;
+
+}
+button:hover{
+    background:yellow;
+    color: black;
+
+}
