@@ -1,0 +1,18 @@
+body{
+    background: radial-gradient(red,yellow);
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 50px;
+    color:tomato;
+    font-family: orbitron;
+    text-shadow: 10px 10px 10px blue;
+    border: 5px groove blue;
+    background-color: purple;
+    width: 200px;
+    height: 400px;
+
+}
