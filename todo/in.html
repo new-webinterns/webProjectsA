@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Documnet</title>
+        </head>
+        <body>
+            <button onclick="clicked()">click</button>
+            <button onclick="display()">display</button>
+            <h1 id="print"></h1>
+          <script type="text/javascript">
+          function clicked(){
+              var a="hello";
+              localStorage.setItem("store",a);
+          }
+          function display(){
+              var b=localStorage.getItem("store");
+           document.getElementById("print").innerHTML=b;
+          }
+          </script>
+        </body>
+</html>
