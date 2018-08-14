@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(#6b093a,rgb(243, 235, 235));
+    height: 100vh;
+}
+.panel{
+    width: 55%;
+    height: 77%;
+    background: #f0beec;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+}

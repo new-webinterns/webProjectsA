@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(#eeb310,rgb(243, 235, 235));
+    height: 100vh;
+}
+.panel{
+    width: 55%;
+    height: 77%;
+    background: #f0beec;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+    grid-column: 5%;
+}
+
+.leftPanel{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 100px 0 0 0;
+
+}
+
+.rightPanel{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+}
+.leftPanel1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 100px 0 0 0;
+
+}
+
+.rightPanel1{
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.heading{
+    color: black;
+}
