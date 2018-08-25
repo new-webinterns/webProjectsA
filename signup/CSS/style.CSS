@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(#ebdb04,rgb(243, 235, 235));
+    height: 100vh;
+}
+.panel{
+    width: 80%;
+    height: 77%;
+    background:khaki;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 20px;
+}
+.leftPanel{
+    width: 50%;
+    height: 60%;
+    float: left;
+    text-align: top;
+    padding: 15px 0 0 0;
+    margin: auto;
+}
+.rightPanel{
+    width: 50%;
+    height: 60%;
+    float: right;
+    text-align: top;
+    padding: 15px 0 0 0 ;
+}
+input{
+    margin-top: 25px;
+    padding: 8px;
+    width: 40%;
+    
+    box-shadow:  red;
+}
+button{
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 8px 50px;
+    background: rgb(209, 70, 15);
+    color: rgb(247, 162, 52);
+    border: 1px dotted white;
+}
