@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(pink,white);
+    height: 100vh;
+}
+.panel{
+    width: 650px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+input{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 1px; 
+    width: 20%;
+    border: 1px solid lightblue;
+
+
+}
+button{
+    margin-right: 80px;
+    border-radius: 5px;
+    padding: 8px ;
+    background: orange;
+    color: white;
+    border: 1px solid #e67e22;
+}
